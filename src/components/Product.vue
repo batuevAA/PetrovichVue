@@ -106,9 +106,11 @@
                 this.goldPrice = this.product.priceGold;
                 this.retailPrice = this.product.priceRetail;
             },
+
             stepUp() {
                 this.stepCounter++;
             },
+            
             stepDown() {
                 if (this.stepCounter > 1) {
                     this.stepCounter--;
